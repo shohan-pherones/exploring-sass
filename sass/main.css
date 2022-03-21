@@ -10,8 +10,6 @@ html {
 }
 
 .main-header {
-  width: 100vw;
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,6 +23,8 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100vw;
+  height: 100vh;
   background-color: #dc143c;
 }
 
